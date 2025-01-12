@@ -1,11 +1,42 @@
-buy_me_a_coffee: your-username
+# These are supported funding model platforms
+
+# GitHub Sponsors - Enable GitHub Sponsors and add your username(s)
+github: # Up to 4 GitHub usernames
+  - octocat
+  - username2
+  - username3
+  - username4
+
+# Buy Me a Coffee - Your Buy Me a Coffee username
+buy_me_a_coffee: mybuymeacoffee
+
+# Patreon - Your Patreon username
+patreon: mypatreon
+
+# Open Collective - Your Open Collective username
+open_collective: myopencollective
 
 # Ko-fi - Your Ko-fi username
-# ko-fi: mykofi
-kofi: mykofi
-ko-fi: mykofi2
-ko_fi: mykofi3
+ko_fi: mykofi
 
-# Otechie - Your Otechie username
-otechie: otechie-username
+# Tidelift - Your Tidelift platform-name/package-name
+tidelift: npm/mypackage
 
+# Community Bridge - Your Community Bridge project name
+community_bridge: myproject
+
+# Liberapay - Your Liberapay username
+liberapay: myliberapay
+
+# IssueHunt - Your IssueHunt username
+issuehunt: myissuehunt
+
+# LFX Crowdfunding - URL of your LFX Crowdfunding project
+lfx_crowdfunding: myproject-url
+
+# Buy Me A Coffee - Your Buy Me A Coffee username
+custom: # Up to 4 custom URLs
+  - "https://www.buymeacoffee.com/myusername"
+  - "https://custom-donation-link.com"
+  - "https://paypal.me/myusername"
+  # - Any other custom funding URL
