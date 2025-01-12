@@ -1,0 +1,31 @@
+# These are supported funding model platforms
+
+# Bitcoin
+bitcoin: 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+
+# Ethereum
+ethereum: 0x661b5dc032bedb210f225df4b1aa2bdd669b38bc
+
+# Litecoin
+litecoin: Ld6b6FZ4Vp8xJ7CJL3vBwv5bQ2QnZnay4v
+
+# GitHub Sponsors
+github: [AhmedOsamaMath]
+
+# Open Collective
+open_collective: [organization]
+
+# Patreon
+patreon: [user]
+
+# Tidelift
+tidelift: [user]
+
+# Ko-fi
+ko_fi: [user]
+
+# Community Bridge
+community_bridge: [user]
+
+# Custom
+custom: ['https://example.com/some-funding-page']
