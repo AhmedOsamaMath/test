@@ -1,5 +1,7 @@
 # These are supported funding model platforms
 
+bitcoin: mybitcoinaddress
+
 # GitHub Sponsors - Enable GitHub Sponsors and add your username(s)
 github: # Up to 4 GitHub usernames
   - octocat
