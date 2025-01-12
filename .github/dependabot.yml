@@ -10,7 +10,7 @@ updates:
       interval: "daily"
     labels:
       - "pip dependencies"
-    #versioning-strategy: lockfile-only
+    versioning-strategy: lockfile-only
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
