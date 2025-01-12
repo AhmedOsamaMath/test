@@ -1,38 +1,44 @@
-# FUNDING.yml
-# This file allows you to define financial support options for your project.
-# It links contributors to platforms where they can sponsor or donate.
-# You can use GitHub Sponsors or other external funding platforms.
+# These are supported funding model platforms
 
-# Enable GitHub Sponsors for this repository
-# Replace 'your-username' with your GitHub username.
-github: 
+# GitHub Sponsors - Enable GitHub Sponsors and add your username(s)
+github: # Up to 4 GitHub usernames
+  - octocat
+  - yyx990803
   - AhmedOsamaMath
-  # You can list multiple GitHub accounts if applicable:
-  # - another-username
 
-# Add Patreon as a funding option
-# Replace 'your-username' with your Patreon username.
-patreon: AhmedOsamaMath
+# Patreon - Your Patreon username
+patreon: mypatreon
 
-# Add Open Collective as a funding option
-# Replace 'your-collective' with the name of your Open Collective group.
-opencollective: your-collective
+# Open Collective - Your Open Collective username
+open_collective: myopencollective
+# opencollective: your-collective
+# buymeacoffee: your-username
 
-# Add Ko-fi as a funding option
-# Replace 'your-username' with your Ko-fi username.
-kofi: your-username
+# Ko-fi - Your Ko-fi username
+ko-fi: mykofi
+# kofi: your-username
 
-# Add Liberapay as a funding option
-# Replace 'your-username' with your Liberapay username.
-liberapay: your-username
+# Tidelift - Your Tidelift platform-name/package-name
+tidelift: npm/mypackage
 
-# Add Buy Me a Coffee as a funding option
-# Replace 'your-username' with your Buy Me a Coffee username.
-buymeacoffee: your-username
+# Community Bridge - Your Community Bridge project name
+community_bridge: myproject
 
-# Add custom donation links
-# Replace 'https://your-donation-page.com' with the URL to your custom donation page.
-custom: 
-  - "https://your-donation-page.com"
-  # You can add multiple custom URLs:
-  # - "https://another-donation-link.com"
+# Liberapay - Your Liberapay username
+liberapay: myliberapay
+
+# IssueHunt - Your IssueHunt username
+issuehunt: myissuehunt
+
+# Otechie - Your Otechie username
+otechie: myotechie
+
+# LFX Crowdfunding - URL of your LFX Crowdfunding project
+lfx_crowdfunding: myproject-url
+
+# Buy Me A Coffee - Your Buy Me A Coffee username
+custom: # Up to 4 custom URLs
+  - "https://www.buymeacoffee.com/myusername"
+  - "https://custom-donation-link.com"
+  - "https://paypal.me/myusername"
+  # - Any other custom funding URL
