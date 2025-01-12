@@ -11,8 +11,8 @@ updates:
     labels:
       - "pip dependencies"
     #versioning-strategy: lockfile-only
-    #allow:
+    allow:
       # Allow both direct and indirect updates for all packages
-    #  - dependency-type: "all"
+      - dependency-type: "all"
     #reviewers:
     #  - "team-python"         # Optional: Specify reviewers for pull requests.
