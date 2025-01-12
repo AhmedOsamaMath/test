@@ -16,16 +16,16 @@ github: [AhmedOsamaMath]
 open_collective: [organization]
 
 # Patreon
-patreon: [user]
+patreon: [AhmedOsamaMath]
 
 # Tidelift
-tidelift: [user]
+tidelift: [AhmedOsamaMath]
 
 # Ko-fi
-ko_fi: [user]
+ko_fi: [AhmedOsamaMath]
 
 # Community Bridge
-community_bridge: [user]
+community_bridge: [AhmedOsamaMath]
 
 # Custom
-custom: ['https://example.com/some-funding-page']
+# custom: ['https://example.com/some-funding-page']
