@@ -1,33 +1,11 @@
-
-
 buymeacoffee: your-username
 
 # Ko-fi - Your Ko-fi username
 # ko-fi: mykofi
 kofi: mykofi
-
-# Tidelift - Your Tidelift platform-name/package-name
-tidelift: npm/mypackage
-
-# Community Bridge - Your Community Bridge project name
-community_bridge: myproject
-
-# Liberapay - Your Liberapay username
-liberapay: myliberapay
-
-# IssueHunt - Your IssueHunt username
-issuehunt: myissuehunt
+ko-fi: mykofi2
+ko_fi: mykofi3
 
 # Otechie - Your Otechie username
-otechie: myotechie
+otechie: otechie-username
 
-# LFX Crowdfunding - URL of your LFX Crowdfunding project
-lfx_crowdfunding: myproject-url
-
-# Buy Me A Coffee - Your Buy Me A Coffee username
-custom: # Up to 4 custom URLs
-  - "https://example1.com/myusername"
-  - "https://example2.com/myusername"
-  - "https://example3.com/myusername"
-  - "https://example4.com/myusername"
-  # - Any other custom funding URL
