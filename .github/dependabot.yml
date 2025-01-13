@@ -1,8 +1,63 @@
-# Please see the documentation for all configuration options:
-# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-
 version: 2
 updates:
+  # Configuration for npm
+  - package-ecosystem: "npm"
+    directory: "/"  # Location of package manifests
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "America/New_York"
+    # Labels on pull requests for security and version updates
+    labels:
+      - "npm dependencies"
+      - "triage"
+    # Add reviewers
+    reviewers:
+      - "octocat"
+      - "username2"
+    # Add assignees
+    assignees:
+      - "username1"
+    # Specify branch to create pull requests against
+    target-branch: "develop"
+    allow:
+      - dependency-type: "direct"  # Only direct dependencies for better control
+    security-updates-only: false   # Enable all updates, not just security
+    rebase-strategy: "auto"        # Added: Automatically handle conflicts
+    # Allow up to 10 open pull requests for npm dependencies
+    open-pull-requests-limit: 10
+    # Raise pull requests for version updates
+    versioning-strategy: auto
+    # Set custom commit message
+    commit-message:
+      prefix: "npm"
+      prefix-development: "dev"
+      include: "scope"
+    # Specify groups of packages to be updated together
+    groups:
+      dev-dependencies:
+        patterns:
+          - "*"
+        dependency-type: "development"
+      production-dependencies:
+        patterns:
+          - "*"
+        dependency-type: "production"
+      angular-packages:
+        patterns:
+          - "@angular/*"
+        exclude-patterns:
+          - "@angular/cli"
+          - "@angular/core"
+    # Ignore certain dependencies
+    ignore:
+      - dependency-name: "express"
+        versions: ["4.x.x"]
+      - dependency-name: "lodash"
+        update-types: ["version-update:semver-patch"]
+    milestone: 1              # Optional: Associate updates with a milestone.
+
   # Configuration for Python pip
   - package-ecosystem: "pip"
     directory: "/"
@@ -14,5 +69,72 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
-    #reviewers:
-    #  - "team-python"         # Optional: Specify reviewers for pull requests.
+
+  # Configuration for Docker
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "docker dependencies"
+    # Only allow secure updates to Docker images
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+
+  # Configuration for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "github-actions"
+    commit-message:
+      prefix: "actions"
+    # Allow up to 5 open pull requests for GitHub Actions
+    open-pull-requests-limit: 5
+
+  # Configuration for Maven
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "08:00"
+      timezone: "Europe/London"
+    labels:
+      - "maven dependencies"
+    ignore:
+      - dependency-name: "org.apache.logging.log4j:log4j-core"
+        versions: ["2.x.x"]
+    registries:
+      - maven-github
+
+  # Configuration for Nuget
+  - package-ecosystem: "nuget"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "nuget dependencies"
+    # Ignore major version updates
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+
+  # Custom settings for ignored updates.
+  ignore:
+    - dependency-name: "express"
+      versions: ["^4.0.0"]    # Ignore all 4.x.x versions.
+
+# Configure registries (if needed)
+registries:
+  npm-github:
+    type: npm-registry
+    url: https://npm.pkg.github.com
+    token: ${{secrets.GITHUB_TOKEN}}
+  
+  maven-github:
+    type: maven-repository
+    url: https://maven.pkg.github.com/octocat
+    username: ${{secrets.MAVEN_USERNAME}}
+    password: ${{secrets.MAVEN_PASSWORD}}
