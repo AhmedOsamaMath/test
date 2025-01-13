@@ -1,7 +1,0 @@
-requests
-catppuccin-jupyterlab
-jupyterlab
-numpy
-pandas
-matplotlib
-scikit-learn
