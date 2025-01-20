@@ -1,11 +1,14 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { DiGit } from "react-icons/di";
 import {
   SiLinux,
   SiVisualstudiocode,
   SiSpyderide,
   SiAnaconda,
   SiKaggle,
+  SiJupyter,
+  SiDocker,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -25,6 +28,15 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiKaggle />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJupyter />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
       </Col>
     </Row>
   );

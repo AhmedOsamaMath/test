@@ -8,16 +8,11 @@ import {
   DiPhp,
 
   DiMongodb,
-
-  DiGit,
 } from "react-icons/di";
 import {
   SiMysql,
   SiPostgresql,
 
-  SiJupyter,
-  SiDocker,
-  
   SiPandas,
   SiNumpy,
 
@@ -62,16 +57,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJupyter />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
