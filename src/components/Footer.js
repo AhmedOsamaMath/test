@@ -4,7 +4,6 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-  AiFillYoutube,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Youtube } from 'lucide-react';
@@ -70,7 +69,6 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillYoutube />
                 <Youtube />
                 </a>
             </li>
