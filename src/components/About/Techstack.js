@@ -20,7 +20,6 @@ import {
 
   SiPlotly,
   SiTableau,
-  SiAlteryx,
 
   SiScikitlearn,
   SiScipy,
@@ -80,9 +79,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiTableau />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAlteryx />
-      </Col>
+     
 
       <Col xs={4} md={2} className="tech-icons">
         <SiScikitlearn />
