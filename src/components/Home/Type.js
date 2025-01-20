@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "Data Scientist",
-          "ML/AI Enthusiast",
+          "ML\AI Enthusiast",
           "Turning Complex Data into Actionable Business Insights",
           "Expert in Python, SQL, Alteryx, Tableau and Power BI",
           "Storyteller with Data",
