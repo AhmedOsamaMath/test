@@ -1,17 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-  AiFillYoutube,
-} from "react-icons/ai";
 import { 
   FaLinkedinIn, FaKaggle 
 } from "react-icons/fa";
+import {
+  AiFillGithub,
+  AiFillYoutube,
+  AiFillInstagram,
+} from "react-icons/ai";
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
