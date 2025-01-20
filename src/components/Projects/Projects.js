@@ -34,6 +34,24 @@ function Projects() {
               kaggleLink="https://www.kaggle.com/code/ahmedosamamath/titanic-survival-prediction"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={titanic}
+              title="Snake Game 🐍"
+              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              githubLink="https://github.com/AhmedOsamaMath/snake-game"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={titanic}
+              title="Chess Game ♟"
+              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              githubLink="https://github.com/AhmedOsamaMath/chess-game"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
