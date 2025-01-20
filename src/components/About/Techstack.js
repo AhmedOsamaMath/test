@@ -23,7 +23,7 @@ import {
 } from "react-icons/si";
 
 const TechCategory = ({ title, children }) => (
-  <div className="mb-8">
+  <div>
     <h2 className="category-heading">{title}</h2>
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {children}
@@ -39,7 +39,7 @@ const TechIcon = ({ children }) => (
 
 function Techstack() {
   return (
-    <div className="p-4">
+    <div>
       <TechCategory title="Programming Languages">
         <TechIcon><DiPython /></TechIcon>
         <TechIcon><FaRProject /></TechIcon>
