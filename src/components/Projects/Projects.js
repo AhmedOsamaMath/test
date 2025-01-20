@@ -4,6 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import wuzzufDataset from "../../Assets/Projects/wuzzuf-dataset.png";
 import titanic from "../../Assets/Projects/titanic.png";
+import chess from "../../Assets/Projects/chess.png";
+import snake from "../../Assets/Projects/snake.png";
 
 function Projects() {
   return (
@@ -20,7 +22,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={wuzzufDataset}
-              title="Wuzzuf.net Job Postings Dataset"
+              title="Wuzzuf Job Postings Dataset 🕴"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
               kaggleLink="https://www.kaggle.com/datasets/ahmedosamamath/wuzzuf-dataset"
             />
@@ -29,7 +31,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={titanic}
-              title="Titanic Survival Prediction"
+              title="Titanic Survival Prediction 🛳"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
               kaggleLink="https://www.kaggle.com/code/ahmedosamamath/titanic-survival-prediction"
             />
@@ -37,7 +39,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={titanic}
+              imgPath={snake}
               title="Snake Game 🐍"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
               githubLink="https://github.com/AhmedOsamaMath/snake-game"
@@ -46,7 +48,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={titanic}
+              imgPath={chess}
               title="Chess Game ♟"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
               githubLink="https://github.com/AhmedOsamaMath/chess-game"
