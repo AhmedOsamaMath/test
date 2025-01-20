@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { FaRProject } from "react-icons/fa";
+import { RiFileExcel2Fill } from "react-icons/ri";
 import {
   DiPython,
   DiJavascript1,
@@ -18,8 +19,14 @@ import {
   SiNumpy,
 
   SiPlotly,
+  SiTableau,
+  SiAlteryx,
 
   SiScikitlearn,
+  SiScipy,
+  SiKeras,
+  SiTensorflow,
+  SiPytorch,
 
   SiStreamlit,
   SiFlask,
@@ -63,13 +70,34 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiNumpy />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <RiFileExcel2Fill />
+      </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <SiPlotly />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTableau />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAlteryx />
+      </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <SiScikitlearn />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiScipy />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKeras />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTensorflow />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPytorch />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
