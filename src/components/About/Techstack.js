@@ -24,8 +24,8 @@ import {
 
 const TechCategory = ({ title, children }) => (
   <div className="mb-8">
-    <h3 className="text-xl font-bold mb-4">{title}</h3>
-    <Row className="justify-center pb-4">
+    <h2 className="category-heading">{title}</h2>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {children}
     </Row>
   </div>
