@@ -4,8 +4,10 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillYoutube,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Youtube } from 'lucide-react';
 
 function Footer() {
   let date = new Date();
@@ -69,7 +71,8 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillYoutube />
-              </a>
+                <Youtube />
+                </a>
             </li>
           </ul>
         </Col>
