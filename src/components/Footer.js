@@ -4,9 +4,9 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillYoutube,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { Youtube } from "react-icons/youtube";
 
 function Footer() {
   let date = new Date();
@@ -69,7 +69,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <Youtube />
+                <AiFillYoutube />
                 </a>
             </li>
           </ul>
