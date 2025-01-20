@@ -3,14 +3,19 @@ import { Col, Row } from "react-bootstrap";
 import { SiMysql } from "react-icons/si";
 import {
   DiJavascript1,
-  DiReact,
-  DiNodejs,
+  DiPhp,
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
+  SiPandas,
+  SiNumpy,
+
+  SiPlotly,
+
+  SiScikitlearn,
+
   SiRedis,
   SiFirebase,
   SiNextdotjs,
@@ -25,6 +30,25 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPhp />
+      </Col>
+      
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPandas />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNumpy />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPlotly />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiScikitlearn />
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
