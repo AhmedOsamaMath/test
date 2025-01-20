@@ -6,7 +6,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { Youtube } from 'lucide-react';
+import { Youtube } from "react-icons/youtube";
 
 function Footer() {
   let date = new Date();
