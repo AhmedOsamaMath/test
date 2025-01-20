@@ -4,8 +4,8 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiSpyderide,
-  SiJupyter,
   SiAnaconda,
+  SiKaggle,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -20,12 +20,11 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiSpyderide />
       </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJupyter />
-      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAnaconda />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKaggle />
       </Col>
     </Row>
   );

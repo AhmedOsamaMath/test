@@ -15,6 +15,9 @@ import {
   SiMysql,
   SiPostgresql,
 
+  SiJupyter,
+  SiDocker,
+  
   SiPandas,
   SiNumpy,
 
@@ -33,8 +36,6 @@ import {
 
   SiApachespark,
   SiApachehadoop,
-
-  SiDocker,
 } from "react-icons/si";
 
 function Techstack() {
@@ -64,6 +65,16 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
+        <SiJupyter />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
         <SiPandas />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -80,7 +91,6 @@ function Techstack() {
         <SiTableau />
       </Col>
      
-
       <Col xs={4} md={2} className="tech-icons">
         <SiScikitlearn />
       </Col>
@@ -112,13 +122,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiApachehadoop />
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
       </Col>
     </Row>
   );
