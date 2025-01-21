@@ -23,7 +23,7 @@ function Projects() {
             <ProjectCard
               imgPath={wuzzufDataset}
               title="Wuzzuf Job Postings Dataset 🕴"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Analyzed the Wuzzuf job dataset to uncover trends in job demand, skills requirements, and industry distribution. Applied data cleaning, exploratory data analysis (EDA), and visualization techniques to present insights, focusing on job market trends and candidate requirements in the MENA region."
               kaggleLink="https://www.kaggle.com/datasets/ahmedosamamath/wuzzuf-dataset"
             />
           </Col>
@@ -32,7 +32,7 @@ function Projects() {
             <ProjectCard
               imgPath={titanic}
               title="Titanic Survival Prediction 🛳"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Completed the Titanic Survival Prediction competition on Kaggle, achieving a score of 0.75837. Utilized data preprocessing, feature engineering, and machine learning models to predict passenger survival."
               kaggleLink="https://www.kaggle.com/code/ahmedosamamath/titanic-survival-prediction"
             />
           </Col>
@@ -41,7 +41,7 @@ function Projects() {
             <ProjectCard
               imgPath={snake}
               title="Snake Game 🐍"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Created a modern Snake game in Python using Pygame. This version includes configurable difficulty levels, dynamic food spawning, collision detection, and real-time score tracking. It features intuitive controls, a customizable settings file, and a smooth gameplay experience."
               githubLink="https://github.com/AhmedOsamaMath/snake-game"
             />
           </Col>
@@ -50,7 +50,7 @@ function Projects() {
             <ProjectCard
               imgPath={chess}
               title="Chess Game ♟"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Developed a basic chess game in Python using Pygame. The project includes a graphical user interface, fundamental chess logic, and a simple computer AI opponent. Features like check/checkmate detection and piece movement validation are implemented, with plans for future enhancements including advanced AI and special chess moves."
               githubLink="https://github.com/AhmedOsamaMath/chess-game"
             />
           </Col>
