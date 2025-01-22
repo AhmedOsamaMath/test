@@ -83,6 +83,32 @@ function ResumeNew() {
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative", marginTop: "20px" }}>
+          <div className="d-flex justify-content-center align-items-center gap-3">
+            <Button
+              variant="primary"
+              onClick={previousPage}
+              disabled={pageNumber <= 1}
+              style={{ borderRadius: "50%", width: "40px", height: "40px", padding: "0" }}
+            >
+              <BsArrowLeftCircle />
+            </Button>
+            
+            <span className="mx-2">
+              Page {pageNumber} of {numPages}
+            </span>
+
+            <Button
+              variant="primary"
+              onClick={nextPage}
+              disabled={pageNumber >= numPages}
+              style={{ borderRadius: "50%", width: "40px", height: "40px", padding: "0" }}
+            >
+              <BsArrowRightCircle />
+            </Button>
+          </div>
+        </Row>
+
+        <Row style={{ justifyContent: "center", position: "relative", marginTop: "20px" }}>
           <Button
             variant="primary"
             href={pdf}
