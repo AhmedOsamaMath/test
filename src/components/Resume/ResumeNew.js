@@ -46,16 +46,6 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume">
-          <Document 
-            file={pdf} 
-            className="d-flex justify-content-center"
-            onLoadSuccess={onDocumentLoadSuccess}
-          >
-            <Page pageNumber={pageNumber} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
-        </Row>
-
         <Row style={{ justifyContent: "center", position: "relative", marginTop: "20px" }}>
           <div className="d-flex justify-content-center align-items-center gap-3">
             <Button
@@ -80,6 +70,16 @@ function ResumeNew() {
               <BsArrowRightCircle />
             </Button>
           </div>
+        </Row>
+
+        <Row className="resume">
+          <Document 
+            file={pdf} 
+            className="d-flex justify-content-center"
+            onLoadSuccess={onDocumentLoadSuccess}
+          >
+            <Page pageNumber={pageNumber} scale={width > 786 ? 1.7 : 0.6} />
+          </Document>
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative", marginTop: "20px" }}>
