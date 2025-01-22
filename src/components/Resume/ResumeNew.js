@@ -27,7 +27,7 @@ function ResumeNew() {
   };
 
   const nextPage = () => {
-    setPageNumber(pageNumber >= numPages ? numPages : pageNumber - 1);
+    setPageNumber(pageNumber >= numPages ? numPages : pageNumber + 1);
   };
 
   return (
