@@ -1,0 +1,119 @@
+# This is a CODEOWNERS file for repository ownership configuration
+# Each line is a file pattern followed by one or more owners
+# Order is important; the last matching pattern takes precedence
+
+# These owners will be the default owners for everything in
+# the repo unless a later match takes precedence
+*       @global-owner1 @global-owner2
+
+# Platform/Infrastructure
+.github/*                    @devops-team @security-team
+.gitlab/*                    @devops-team
+Dockerfile                   @devops-team
+docker-compose.yml           @devops-team
+*.dockerfile                 @devops-team
+kubernetes/*                 @devops-team
+terraform/*                  @infrastructure-team
+.circleci/*                  @devops-team
+.travis.yml                  @devops-team
+jenkins/*                    @devops-team
+
+# Security and Configuration
+security/*                   @security-team
+.env.example                 @security-team
+**/config/*                 @platform-team @security-team
+**/settings/*               @platform-team
+
+# Documentation
+docs/*                      @docs-team
+*.md                        @docs-team
+LICENSE                     @legal-team
+CONTRIBUTING.md             @community-team
+CODE_OF_CONDUCT.md         @community-team
+
+# Frontend Code
+src/frontend/*              @frontend-team
+*.js                        @frontend-team
+*.jsx                       @frontend-team
+*.ts                        @frontend-team
+*.tsx                       @frontend-team
+*.css                       @frontend-team
+*.scss                      @frontend-team
+*.html                      @frontend-team
+*.vue                       @frontend-team
+
+# Backend Code
+src/backend/*               @backend-team
+*.py                        @backend-team
+*.java                      @backend-team
+*.go                        @backend-team
+*.rb                        @backend-team
+*.php                       @backend-team
+
+# Mobile Code
+src/mobile/*               @mobile-team
+*.swift                    @ios-team
+*.kt                       @android-team
+*.java                     @android-team
+
+# Database
+db/*                       @database-team
+migrations/*               @database-team
+*.sql                      @database-team
+
+# API Specifications
+api/*                      @api-team
+swagger/*                  @api-team
+openapi/*                  @api-team
+graphql/*                  @api-team
+
+# Testing
+tests/*                    @qa-team
+__tests__/*                @qa-team
+*.test.js                  @qa-team
+*.spec.js                  @qa-team
+cypress/*                  @qa-team
+jest/*                     @qa-team
+
+# Build and Dependencies
+package.json               @frontend-team @backend-team
+package-lock.json          @frontend-team @backend-team
+yarn.lock                  @frontend-team @backend-team
+requirements.txt           @backend-team
+Pipfile                    @backend-team
+Pipfile.lock              @backend-team
+pom.xml                    @backend-team
+build.gradle              @backend-team
+webpack.config.js          @frontend-team
+
+# Assets and Design
+assets/*                   @design-team
+images/*                   @design-team
+*.svg                      @design-team
+*.png                      @design-team
+*.jpg                      @design-team
+*.gif                      @design-team
+
+# Specific Feature Directories
+src/features/auth/*        @security-team @backend-team
+src/features/payment/*     @payment-team @security-team
+src/features/admin/*       @admin-team
+
+# Monitoring and Logging
+monitoring/*               @sre-team
+logging/*                  @sre-team
+metrics/*                  @sre-team
+
+# Scripts and Tools
+scripts/*                  @tools-team
+tools/*                    @tools-team
+utils/*                    @tools-team
+
+# Localization
+locales/*                  @i18n-team
+translations/*             @i18n-team
+*.json                     @i18n-team
+
+# Special Cases
+# Files that require multiple team reviews
+src/core/*                 @core-team @security-team @performance-team
